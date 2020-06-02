@@ -1,12 +1,46 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Data Lovers</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root"></div>
-    <script src="main.js" type="module"></script>
-  </body>
+<head>
+  <meta charset="utf-8">
+  <title>Data Lovers</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css?family=Fontdiner+Swanky:regular" rel="stylesheet" />
+</head>
+<body>
+  <div class="page">
+    <div class="fondo">
+      <header class="header">
+        <div class="titulo">
+          <h1>El universo de Harry Potter</h1>
+        </div>
+      </header>
+
+      <section class="section">
+        <div class="containerFilter">
+          <aside class="aside">
+            <label for="houseSearch">Filtrar por casa:</label>
+          <select name="" id="select">
+            <option value="Ravenclaw">Ravenclaw</option>
+            <option value="Hufflepuff">Hufflepuff</option>
+            <option value="Slytherin">Slytherin</option>
+            <option value="Gryffindor">Gryffindor</option>
+          </select>
+        </aside>
+        </div>
+
+        <div class="galery">
+          <div id="root">
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div class="piePagina">
+          <h1>© Copyright | 2020. Todos los derechos reservados. | Andrea Silva / Laboratoria, Chile.</h1>
+        </div>
+      </footer>
+    </div>
+  </div>
+  <script src="main.js" type="module"></script>
+</body>
 </html>
