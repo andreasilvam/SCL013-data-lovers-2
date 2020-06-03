@@ -76,7 +76,7 @@ Aparece el listado de imagenes de todos los personajes de Pokemon Go mostrados p
 
 ## 4. Prototipo de alta fidelidad
 
-![prototipoBF](/src/img/PrototipadoBF.jpg)
+![prototipoBF](/src/img/PrototipoBF.jpg)
 
 ## 5. Producto Finalizado
 
