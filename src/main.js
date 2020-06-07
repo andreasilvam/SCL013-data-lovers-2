@@ -1,4 +1,4 @@
-import { filterData } from './data.js';
+import { filterHouse } from './data.js';
 import dataPotter from './data/potter/potter.js';
 //console.log(example, data);
 //console.log(dataPotter);
@@ -24,7 +24,7 @@ selectHouse.addEventListener("change", () => {
   //se llama a la constante que donde se imprime en el html y se declara vacia para que limpie la página
   root.innerHTML = "";
   //llamo a la funcion exportada desde main.js y guardo en una variable el llamado de la funcion, el resultado desde data js
-  let filterUser = filterData(dataPotter, selectUser); //esta variable que guardo en arreglo debe pasar por cada casa
+  let filterUser = filterHouse(dataPotter, selectUser); //esta variable que guardo en arreglo debe pasar por cada casa
 //console.log(filterUser)
 for (let i = 0; i< filterUser.length; i++){
   root.innerHTML += `<section class="tarjetas">`
@@ -32,3 +32,10 @@ for (let i = 0; i< filterUser.length; i++){
   `<p> <section id="name">${filterUser[i].name}</p>`
 }
 })
+
+/*document.getElementById("titulo").addEventListener("click", toPage);
+
+function toPage() {
+  document.getElementById("root").style.display = "none"; //esconder
+  document.getElementById("root").style.display = "block"; //motrar
+}*/

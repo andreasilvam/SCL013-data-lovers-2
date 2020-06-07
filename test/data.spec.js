@@ -1,23 +1,18 @@
-import { example, anotherExample } from '../src/data.js';
+import { filterHouse } from '../src/data.js';
 
+const dataHouse = [{
+  'name': 'Harry Potter',
+  'house': 'Gryffindor'},
+  {'name': 'Harry Potter',
+  'house': 'Gryffindor'},]
 
-describe('example', () => {
+describe('filterHouse', () => {
   test('is a function', () => {
-    expect(typeof example).toBe('function');
+    expect(typeof filterHouse).toBe('function');
   });
 
-  test('returns `example`', () => {
-    expect(example()).toBe('example');
+  test('should return "Gryffindor" for filter "house"', () => {
+    expect(filterHouse(dataHouse, "Gryffindor")).toEqual(dataHouse);
   });
 });
 
-
-describe('anotherExample', () => {
-  test('is a function', () => {
-    expect(typeof anotherExample).toBe('function');
-  });
-
-  test('returns `anotherExample`', () => {
-    expect(anotherExample()).toBe('OMG');
-  });
-});

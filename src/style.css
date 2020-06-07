@@ -8,7 +8,7 @@
   display: flex;
   background: url(img/harry-potter-34.jpg);
   background-position: center;
-  background-attachment: fixed; /*fixed para que quede fija la imagen*/
+  background-attachment: fixed;
   background-size: cover;
   flex-flow: column nowrap;
 }
@@ -22,14 +22,14 @@
   text-align: center;
   justify-content: center;
   align-items: flex-start;
-  width: 100%;
-  height: 100px;
+  height: 100%;
   margin-top: 30px;
+  flex-direction: row;
 }
 
 .titulo{
   font-family: 'Fontdiner Swanky';
-  letter-spacing: 7px;
+  letter-spacing: 10px;
   font-size: 30px;
   line-height: 80px;
   color: rgb(255, 227, 102);
@@ -57,7 +57,7 @@
   height: 100px;
   flex-direction: column;
   display: inline-flex;
-  padding: 5px;
+  padding: 10px;
 }
 
 .aside label{
@@ -87,7 +87,7 @@
 .root{
   display: flex;
   flex-wrap: wrap;
-  flex-direction: column;
+  flex-direction: row column;
 
   text-align: center;
   font-size: 18px;
@@ -108,6 +108,9 @@
 }
 
 .tarjetas{
+  display: flex;
+  flex-direction: row;
+                flex-wrap: wrap;
   float: left;
   width: 200px;
   height: 230px;

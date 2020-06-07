@@ -1,14 +1,14 @@
-# Data Lovers
+# DATA LOVERS
+# El Universo de Harry potter
 
 ## 1. Resumen del proyecto
 
-**construir una _página web_ para visualizar un
+**Construir una _página web_ para visualizar un
 _conjunto (set) de datos_** que se adecúe a lo que descubra que el usuario
 necesita.
 
-* [Harry Potter](src/data/potter/potter.json).
-  Este set de datos muestra la lista de los personajes del mundo de [Harry Potter: Wizards Unite](https://www.wizardingworld.com/), junto con sus respectivas características mencionadas en la serie de novelas de Harry Potter escrita por la autora británica J.K.Rowling.
-  - [Investigación con jugadores de Harry Potter: Wizards Unite](src/data/potter/README.md)
+* **El Universo de Harry Potter.
+Esta pagina web es creada para usuarios que quieren conocer a los personajes de Harry Potter, junto con sus respectivas características mencionadas en la serie de novelas de Harry Potter escrita por la autora británica J.K.Rowling. Se filtrara por casa ya que los personajes de la saga pertenecen a distintas casas y es importante para un mago o bruja estar en la casa de su personaje favorito.
 
 ## 2. Objetivos de aprendizaje
 
